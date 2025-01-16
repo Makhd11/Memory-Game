@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+        <h1 id="game-title">Memory Game</h1>
+    
+        <div id="button-container">
+            <button id="start-button">Start Game</button>
+            <button id="exit-button">Exit Game</button>
+    
+            <button id="reset-button" style="display:none;">Reset Game</button>
+            <button id="pause-button" style="display:none;">Pause Game</button>
+            <button id="menu-button" style="display:none;">Back to Menu</button>
+        </div>
+        <button id="level-button" style="display:none;">Level 1:</button>
+        <div id="timer" style="display:none;">Time: 60s</div>
+    
+        <div class="game-container" id="game-container">
+        </div>
+    
+        <div id="congratulations-page" style="display:none;">
+            <h1>Congratulations you Won! 🎉</h1>
+            <h3>Thanks for playing the Memory Game! Bye!</h3>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
